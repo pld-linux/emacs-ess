@@ -106,7 +106,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc README README.RPM ANNOUNCE COPYING VERSION ChangeLog doc
+%doc ANNOUNCE ChangeLog README README.RPM doc/{NEWS,TODO,*.jpg,*.pdf,name-completion.txt,html}
 %dir %{_datadir}/emacs/site-lisp/%{name}-%{version}
 %{_datadir}/emacs/site-lisp/%{name}-%{version}/*
 %{_datadir}/emacs/site-lisp/site-start.d/*
