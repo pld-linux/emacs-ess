@@ -9,6 +9,7 @@ Source0:	http://ESS.R-project.org/downloads/ess/ess-%{version}.tar.gz
 URL:		http://ESS.R-project.org/
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 BuildArch:	noarch
+BuildRequires:	emacs
 Requires:	emacs
 
 %description
