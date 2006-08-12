@@ -88,9 +88,9 @@ install -D %{name}-init.el $RPM_BUILD_ROOT%{_datadir}/emacs/site-lisp/site-start
 install -d $RPM_BUILD_ROOT%{_datadir}/emacs/site-lisp/%{name}-%{version}
 install -d $RPM_BUILD_ROOT%{_infodir}
 %{__make} install \
-          PREFIX=$RPM_BUILD_ROOT%{_prefix} \
-          LISPDIR=$RPM_BUILD_ROOT%{_datadir}/emacs/site-lisp/%{name}-%{version} \
-          INFODIR=$RPM_BUILD_ROOT%{_infodir}
+	PREFIX=$RPM_BUILD_ROOT%{_prefix} \
+	LISPDIR=$RPM_BUILD_ROOT%{_datadir}/emacs/site-lisp/%{name}-%{version} \
+	INFODIR=$RPM_BUILD_ROOT%{_infodir}
 cp -a etc $RPM_BUILD_ROOT%{_datadir}/emacs/site-lisp/%{name}-%{version}
 
 install %{name}-init.el $RPM_BUILD_ROOT%{_datadir}/emacs/site-lisp/site-start.d
