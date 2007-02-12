@@ -1,5 +1,5 @@
 Summary:	Emacs Speaks Statistics add-on package for Emacs
-Summary(pl):	Dodatek Emacs Speaks Statistics dla Emacsa - obs³uga pakietów statystycznych
+Summary(pl.UTF-8):   Dodatek Emacs Speaks Statistics dla Emacsa - obsÅ‚uga pakietÃ³w statystycznych
 Name:		emacs-ess
 Version:	5.2.6
 Release:	1
@@ -28,20 +28,20 @@ editing features based on that knowledge. ESS assists in interactive
 and batch execution of statements written in these statistical
 analysis languages.
 
-%description -l pl
-Ten pakiet zawiera ESS (Emacs Speaks Statistics), dostarczaj±cy oparte
-na Emacsie frontendy dla popularnych pakietów statystycznych.
+%description -l pl.UTF-8
+Ten pakiet zawiera ESS (Emacs Speaks Statistics), dostarczajÄ…cy oparte
+na Emacsie frontendy dla popularnych pakietÃ³w statystycznych.
 
-ESS dostarcza inteligentny, spójny interfejs pomiêdzy u¿ytkownikiem i
-oprogramowaniem. ESS wspó³pracuje z S-PLUS, R, SAS, BUGS i innymi
-pakietami do analiz statystycznych dla uniksów oraz systemów Microsoft
-Windows i Apple Mac OS. ESS to pakiet dla edytorów tekstu GNU Emacs i
-XEmacs, których mo¿liwo¶ci wykorzystuje ESS przy kszta³towaniu
-tworzenia i u¿ywania programów statystycznych. ESS zna sk³adnie i
-gramatyki pakietów do analiz statystycznych i w oparciu o tê wiedzê
-udostêpnia spójne mo¿liwo¶ci wy¶wietlania i edycji. ESS pomaga w
+ESS dostarcza inteligentny, spÃ³jny interfejs pomiÄ™dzy uÅ¼ytkownikiem i
+oprogramowaniem. ESS wspÃ³Å‚pracuje z S-PLUS, R, SAS, BUGS i innymi
+pakietami do analiz statystycznych dla uniksÃ³w oraz systemÃ³w Microsoft
+Windows i Apple Mac OS. ESS to pakiet dla edytorÃ³w tekstu GNU Emacs i
+XEmacs, ktÃ³rych moÅ¼liwoÅ›ci wykorzystuje ESS przy ksztaÅ‚towaniu
+tworzenia i uÅ¼ywania programÃ³w statystycznych. ESS zna skÅ‚adnie i
+gramatyki pakietÃ³w do analiz statystycznych i w oparciu o tÄ™ wiedzÄ™
+udostÄ™pnia spÃ³jne moÅ¼liwoÅ›ci wyÅ›wietlania i edycji. ESS pomaga w
 interaktywnym i wsadowym wykonywaniu instrukcji zapisanych w tych
-jêzykach analizy statystycznej.
+jÄ™zykach analizy statystycznej.
 
 %prep
 %setup -q -n ess-%{version}
