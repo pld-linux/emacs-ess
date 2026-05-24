@@ -2,7 +2,7 @@ Summary:	Emacs Speaks Statistics add-on package for Emacs
 Summary(pl.UTF-8):	Dodatek Emacs Speaks Statistics dla Emacsa - obsługa pakietów statystycznych
 Name:		emacs-ess
 Version:	5.13
-Release:	1
+Release:	2
 License:	GPL
 Group:		Applications/Editors
 Source0:	http://ESS.R-project.org/downloads/ess/ess-%{version}.tgz
